@@ -9,8 +9,9 @@ cache:
 
 before_script:
   - ruby -v                                   
-  - bundle install --path vendor
+  - bundle install -j $(nproc) --path vendor
+  - ls
 
 rspec:
   script:
-  - rspec spec
+  - bundle exec rspec spec

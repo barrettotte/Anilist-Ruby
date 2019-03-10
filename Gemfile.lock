@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Anilistrb (0.1.1)
+    Anilistrb (0.1.2)
       httparty (>= 0.13.7)
       json (>= 2.2)
 

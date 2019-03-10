@@ -1,5 +1,6 @@
 # Anilistrb
 
+[![pipeline status](https://gitlab.com/barrettotte/Anilist-Ruby/badges/master/pipeline.svg)](https://gitlab.com/barrettotte/Anilist-Ruby/commits/master)
 [![Gem Version](https://badge.fury.io/rb/Anilistrb.svg)](https://badge.fury.io/rb/Anilistrb)
 ![Gem](https://img.shields.io/gem/dt/Anilistrb.svg)
 ![GitHub](https://img.shields.io/github/license/barrettotte/Anilist-Ruby.svg)
@@ -50,6 +51,10 @@ puts list
 #       Repeating: 0     item(s)
 ```
 
+**Note**: Media, MediaList, and User objects extend from **AnilistObj** which
+is an object with properies dynamically built from the fields returned from
+a GraphQL query results. To easily get a list of a child's properties: call ```some_obj.attributes ```
+
 
 ## API Wrapper - https://graphql.anilist.co
 * get_anime(id)
@@ -71,16 +76,15 @@ puts list
 
 
 ## Building/Publishing
-* commit + push all changes
-* ```gem build Anilistrb.gemspec```
-* ```gem push Anilistrb-x.x.x.gem```
+* commit + push all changes, increment version in ```./lib/Anilistrb/version.rb```
+* ```gem build Anilistrb.gemspec && gem push Anilistrb-x.x.x.gem```
 
 
 ## Sources
-* GraphQL Introduction https://graphql.org/learn/
 * AniList https://anilist.co/home
 * AniList APIv2 Docs https://anilist.gitbook.io/anilist-apiv2-docs/
 * Anilist APIv2 Schema Documentation https://anilist.github.io/ApiV2-GraphQL-Docs/
-* Ruby Gems https://rubygems.org/
-* Ruby Docker https://hub.docker.com/_/ruby
+* GraphQL Introduction https://graphql.org/learn/
 * Publish a Ruby gem https://guides.rubygems.org/publishing/
+* Ruby Docker https://hub.docker.com/_/ruby
+* Ruby Gems https://rubygems.org/

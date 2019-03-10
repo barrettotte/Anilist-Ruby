@@ -1,25 +1,15 @@
-require 'httparty'
-require 'json'
-
 require_relative 'Anilistrb/version'
-require_relative 'Anilistrb/GraphqlClient'
+require_relative 'Anilistrb/Client'
+require_relative 'Anilistrb/Media'
 
-url = 'https://graphql.anilist.co'
-client = GraphqlClient.new(url)
+module Anilistrb
 
-query = " 
-	query ($id: Int) {
-    	Media (id: $id, type: ANIME) {
-    	  	id
-    	  	title {
-    	    	romaji
-    	    	english
-    	    	native
-    	  	}
-    	}
-	}
-"
 
-response = client.execute(query: query, variables: { id: 15125 })
-puts response
+	client = Anilistrb::Client.new(File.dirname(__FILE__))
+	
+	test_anim1 = client.get_anime_by_id(1234)
+	p test_anim1.title
 
+
+
+end

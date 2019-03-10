@@ -1,13 +1,20 @@
-image: ruby:2.6.1-alpine3.8
+# Official language image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/ruby/tags/
+image: "ruby:2.6"
 
+# Cache gems in between builds
 cache:
-  paths: 
-    - vendor/
+  paths:
+    - vendor/ruby
 
 before_script:
-  - bundle install --path vendor
+  - ruby -v                                   
+  - bundle install -j $(nproc) --path vendor  # Install dependencies into ./vendor/ruby
 
-deploy:
-  stage: deploy
+rubocop:
   script:
-    - bundle exec rake
+  - rubocop
+
+rspec:
+  script:
+  - rspec spec

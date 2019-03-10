@@ -1,17 +1,24 @@
 # Anilistrb
 
+[![Gem Version](https://badge.fury.io/rb/Anilistrb.svg)](https://badge.fury.io/rb/Anilistrb)
+![Gem](https://img.shields.io/gem/dt/Anilistrb.svg)
+![GitHub](https://img.shields.io/github/license/barrettotte/Anilist-Ruby.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/barrettotte/Anilist-Ruby.svg)
+
 A simple API wrapper for AniList's GraphQL APIv2
 
 This is a small side project for a practical introduction to both Ruby and GraphQL,
 so its not perfect
 
-Also learned some of the basics of Rubocop, Rspec, Rake
+Also learned some of the basics of Rubocop, Rspec, Rake, Ruby metaprogramming, and publishing a ruby gem
 
 
 ## Installation
-* Put in gemfile: ```gem 'Anilistrb```
-* Execute: ```$ bundle```
-* or manually ```$ gem install Anilistrb```
+* https://rubygems.org/gems/Anilistrb
+* Put in gemfile: ```gem Anilistrb```
+* Execute: ```bundle```
+* or manually ```gem install Anilistrb```
+* Update ```gem update Anilistrb```
 
 
 ## API Wrapper - https://graphql.anilist.co
@@ -32,22 +39,11 @@ Also learned some of the basics of Rubocop, Rspec, Rake
 * ```rake spec``` run tests
 * ```bundle exec rake install``` install locally 
 
+
 ## Building/Publishing
 * commit + push all changes
 * ```gem build Anilistrb.gemspec```
-* ```gem push Anilistrb-0.1.0.gem```
-
-## To Do
-- [x] GraphQL Client and basic get_media(id)
-- [x] Rubocop, Unit tests
-- [x] All get by id functions
-- [x] All search functions
-- [x] Test gem usage in a simple program
-- [x] Documentation
-- [x] Publish gem
-
-## Scrapped out of laziness
-* Dockerize, GitLab CI/CD
+* ```gem push Anilistrb-x.x.x.gem```
 
 
 ## Sources

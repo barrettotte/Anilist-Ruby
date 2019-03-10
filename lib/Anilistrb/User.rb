@@ -1,11 +1,10 @@
 require_relative './AnilistObj'
 
 module Anilistrb
-    class Media < AnilistObj
+    class User < AnilistObj
         
         def to_s
-            out = "["
-            "[#{id}] - #{title}"
+            "[#{id}] - #{name}"
         end
     end
 end

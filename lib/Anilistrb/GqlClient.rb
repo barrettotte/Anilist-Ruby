@@ -17,11 +17,13 @@ module Anilistrb
         end
 
         def request(method:, query:, variables: nil)
-            return case
+            # TODO: check if status code not 200
+            response = case
                 when method == 'POST' ; HTTParty.post(*build_request(query: query, variables: variables))
                 when method == 'GET'  ; HTTParty.get( *build_request(query: query, variables: variables))
                 else                  ; puts method + " not supported."
             end
+            return response
         end
 
     end

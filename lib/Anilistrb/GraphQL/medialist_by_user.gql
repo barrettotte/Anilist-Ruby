@@ -1,0 +1,39 @@
+query ($id: Int!, $type: MediaType) {
+	MediaListCollection (userId: $id, type: $type) {
+		lists {
+			name
+			entries {
+				id
+				mediaId
+				status
+				score
+				progress
+				progressVolumes
+				startedAt {
+					year
+					month
+					day
+				}
+				completedAt {
+					year
+					month
+					day
+				}
+				updatedAt
+				createdAt
+				media {
+					id
+					title {
+						romaji
+						english
+						native
+					}
+				}
+			}
+		}
+		user {
+			id
+			name
+		}
+	}
+}

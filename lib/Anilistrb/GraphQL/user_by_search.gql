@@ -1,0 +1,17 @@
+query ($search: String) {
+    User(search: $search) {
+        id
+        name
+        about
+        avatar {
+          large
+          medium
+        }
+        bannerImage
+        siteUrl
+        stats {
+          watchedTime
+          chaptersRead
+        }
+    }
+}

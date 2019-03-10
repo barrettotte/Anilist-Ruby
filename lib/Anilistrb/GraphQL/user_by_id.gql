@@ -1,0 +1,17 @@
+query ($id: Int) {
+  User(id: $id) {
+    id
+    name
+    about
+    avatar {
+      large
+      medium
+    }
+    bannerImage
+    siteUrl
+    stats {
+      watchedTime
+      chaptersRead
+    }
+  }
+}

@@ -1,0 +1,44 @@
+query (
+  $id: Int,
+  $page: Int,
+  $perPage: Int,
+  $search: String,
+  $type: MediaType,
+  $sort: [MediaSort] = [SCORE_DESC, POPULARITY_DESC]
+) {
+  Page(page: $page, perPage: $perPage) {
+    media(id: $id, search: $search, type: $type, sort: $sort) {
+      id
+      type
+      format
+      title {
+        english
+        romaji
+        native
+      }
+      synonyms
+      status
+      description
+      startDate {
+        year
+        month
+        day
+      }
+      endDate {
+        year
+        month
+        day
+      }
+      episodes
+      chapters
+      volumes
+      coverImage {
+        large
+      }
+      genres
+      averageScore
+      siteUrl
+      popularity
+    }
+  }
+}

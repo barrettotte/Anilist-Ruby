@@ -7,7 +7,7 @@ module Anilistrb
   class Client
     def initialize
       @gql_client = Anilistrb::GqlClient.new('https://graphql.anilist.co')
-      @gql_dir = File.join(Dir.pwd, 'lib/Anilistrb/GraphQL')
+      @gql_dir = File.expand_path('./GraphQL', __dir__)
       @gql_queries = {
         'media_by_id'       => File.read("#{@gql_dir}/media_by_id.gql"),
         'media_by_pages'    => File.read("#{@gql_dir}/media_by_pages.gql"),

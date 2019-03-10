@@ -15,7 +15,16 @@ Also learned some of the basics of Rubocop, Rspec, Rake
 
 
 ## API Wrapper - https://graphql.anilist.co
-* get_media(id)
+* get_anime(id)
+* get_manga(id)
+* get_animelist(userId)
+* get_mangalist(userId)
+* search_anime(search)
+* search_manga(search)
+* search_anime_paged(search, perPage, page)
+* search_manga_paged(search, perPage, page)
+* search_user(search)
+* gql_request(query string, variables struct)
 
 
 ## Development
@@ -24,8 +33,9 @@ Also learned some of the basics of Rubocop, Rspec, Rake
 * ```bundle exec rake install``` install locally 
 
 ## Building/Publishing
+* commit + push all changes
 * ```gem build Anilistrb.gemspec```
-* 
+* ```gem push Anilistrb-0.1.0.gem```
 
 ## To Do
 - [x] GraphQL Client and basic get_media(id)

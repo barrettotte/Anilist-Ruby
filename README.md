@@ -20,6 +20,36 @@ Also learned some of the basics of Rubocop, Rspec, Rake, Ruby metaprogramming, a
 * or manually ```gem install Anilistrb```
 * Update ```gem update Anilistrb```
 
+## Usage
+``` ruby
+require 'Anilistrb/Client'
+
+client = Anilistrb::Client.new
+anime = client.search_anime('Konosuba')
+puts anime
+# [ANIME] 21202 - {
+#  "romaji"=>"Kono Subarashii Sekai ni Shukufuku wo!", 
+#  "english"=>"KONOSUBA -God's blessing on this wonderful world!",
+#  "native"=>"この素晴らしい世界に祝福を！" }
+
+p anime.attributes # ["id", "title", "type", "format", "status", "description", "start_date", "end_date", "season", ... ]
+
+puts anime.data # Raw request data as a hash
+
+user = client.search_user('barrettotte') 
+puts user # [USER] 247578 - barrettotte
+
+list = client.get_animelist(247578)
+puts list
+# ANIME list for [USER] 247578 - barrettotte
+#       Completed: 244   item(s)
+#       Current:   9     item(s)
+#       Dropped:   1     item(s)
+#       Paused:    0     item(s)
+#       Planning:  284   item(s)
+#       Repeating: 0     item(s)
+```
+
 
 ## API Wrapper - https://graphql.anilist.co
 * get_anime(id)

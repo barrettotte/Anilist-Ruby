@@ -1,3 +1,5 @@
 @ECHO OFF
-ruby ../lib/Anilistrb.rb
+SET FILE=lib/Anilistrb.rb
+SET CACHE=%CD%
+CD ../ & ECHO Running code analysis... & rubocop & ECHO Running %FILE%... & ruby %FILE% & CD %CACHE%
 PAUSE

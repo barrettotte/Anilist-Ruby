@@ -1,10 +1,10 @@
-require_relative './AnilistObj'
+require_relative 'AnilistObj'
 
 module Anilistrb
-    class User < AnilistObj
+  class User < AnilistObj
         
-        def to_s
-            "[#{id}] - #{name}"
-        end
+    def to_s
+      "[USER] #{id} - #{name}"
     end
+  end
 end

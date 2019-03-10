@@ -1,0 +1,233 @@
+{
+    "data": {
+        "Media": {
+            "id": 33,
+            "title": {
+                "romaji": "Kenpuu Denki Berserk",
+                "english": "Berserk",
+                "native": "\\u5263\\u98a8\\u4f1d\\u5947\\u30d9\\u30eb\\u30bb\\u30eb\\u30af"
+            },
+            "type": "ANIME",
+            "format": "TV",
+            "status": "FINISHED",
+            "description": "A brave young warrior named Guts fights for his fortune as a mercenary on the front lines. A fated encounter unites Guts with the charismatic and deadly young man named Griffith. Leading the rogue soldiers known as the Band of the Hawk, Griffith wields his formidable force like no other. Driven by a quest for status, the Hawks exert military and social prowess the likes of which have never been seen before. The armies of Midland will quake with fear as Griffith and Guts set off on a path that will bring the world to its knees.<br><br>\\n(Source: Season One Complete DVD Collection Back Cover)",
+            "startDate": {
+                "year": 1997,
+                "month": 10,
+                "day": 7
+            },
+            "endDate": {
+                "year": 1998,
+                "month": 3,
+                "day": 31
+            },
+            "season": "FALL",
+            "episodes": 25,
+            "duration": 25,
+            "chapters": null,
+            "volumes": null,
+            "countryOfOrigin": "JP",
+            "isLicensed": true,
+            "source": "MANGA",
+            "hashtag": null,
+            "trailer": null,
+            "updatedAt": 1552244513,
+            "coverImage": {
+                "large": "https:\\/\\/s4.anilist.co\\/file\\/anilistcdn\\/media\\/anime\\/cover\\/medium\\/nx33-2SMoVxygnhcy.jpg",
+                "medium": "https:\\/\\/s4.anilist.co\\/file\\/anilistcdn\\/media\\/anime\\/cover\\/small\\/nx33-2SMoVxygnhcy.jpg"
+            },
+            "bannerImage": "https:\\/\\/s4.anilist.co\\/file\\/anilistcdn\\/media\\/anime\\/banner\\/n33-H5u82ZzMDmKn.jpg",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy",
+                "Horror"
+            ],
+            "synonyms": [
+                "Kenfu Denki Berserk",
+                "Sword-Wind Chronicle Berserk"
+            ],
+            "averageScore": 82,
+            "meanScore": 82,
+            "popularity": 19958,
+            "trending": 2,
+            "tags": [
+                {
+                    "id": 85,
+                    "name": "Tragedy",
+                    "description": "Centers around tragic events and unhappy endings.",
+                    "category": "Theme-Drama",
+                    "rank": 92,
+                    "isGeneralSpoiler": true,
+                    "isMediaSpoiler": true,
+                    "isAdult": false
+                },
+                {
+                    "id": 50,
+                    "name": "Seinen",
+                    "description": "Target demographic is adult males.",
+                    "category": "Demographic",
+                    "rank": 86,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 111,
+                    "name": "War",
+                    "description": "Partly or completely set during wartime.",
+                    "category": "Theme-Other",
+                    "rank": 85,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 43,
+                    "name": "Swordplay",
+                    "description": "Prominently features the use of swords in combat.",
+                    "category": "Theme-Action",
+                    "rank": 82,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 34,
+                    "name": "Military",
+                    "description": "Centered around the life and activities of military personnel.",
+                    "category": "Theme-Other-Organisations",
+                    "rank": 80,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 104,
+                    "name": "Anti-Hero",
+                    "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
+                    "category": "Cast-Main Cast",
+                    "rank": 77,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 82,
+                    "name": "Male Protagonist",
+                    "description": "Main character is male.",
+                    "category": "Cast-Main Cast",
+                    "rank": 76,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 94,
+                    "name": "Gore",
+                    "description": "Prominently features graphic bloodshed and violence.",
+                    "category": "Theme-Other",
+                    "rank": 75,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 15,
+                    "name": "Demons",
+                    "description": "Prominently features malevolent otherworldly creatures.",
+                    "category": "Cast-Traits",
+                    "rank": 74,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 155,
+                    "name": "Rape",
+                    "description": "Features non-consensual sexual penetration.",
+                    "category": "Sexual Content",
+                    "rank": 60,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": true,
+                    "isAdult": true
+                },
+                {
+                    "id": 252,
+                    "name": "Revenge",
+                    "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
+                    "category": "Theme-Drama",
+                    "rank": 52,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                },
+                {
+                    "id": 226,
+                    "name": "Fugitive",
+                    "description": "Prominently features a character evading capture by an individual or organization.",
+                    "category": "Theme-Action",
+                    "rank": 30,
+                    "isGeneralSpoiler": false,
+                    "isMediaSpoiler": false,
+                    "isAdult": false
+                }
+            ],
+            "isAdult": false,
+            "nextAiringEpisode": null,
+            "externalLinks": [
+                {
+                    "id": 7628,
+                    "url": "https:\\/\\/www.animelab.com\\/shows\\/berserk",
+                    "site": "Animelab"
+                }
+            ],
+            "streamingEpisodes": [],
+            "rankings": [
+                {
+                    "id": 91,
+                    "rank": 91,
+                    "type": "RATED",
+                    "format": "TV",
+                    "year": null,
+                    "season": null,
+                    "allTime": true,
+                    "context": "highest rated all time"
+                },
+                {
+                    "id": 827,
+                    "rank": 327,
+                    "type": "POPULAR",
+                    "format": "TV",
+                    "year": null,
+                    "season": null,
+                    "allTime": true,
+                    "context": "most popular all time"
+                },
+                {
+                    "id": 1313,
+                    "rank": 1,
+                    "type": "RATED",
+                    "format": "TV",
+                    "year": 1997,
+                    "season": null,
+                    "allTime": false,
+                    "context": "highest rated"
+                },
+                {
+                    "id": 1340,
+                    "rank": 1,
+                    "type": "POPULAR",
+                    "format": "TV",
+                    "year": 1997,
+                    "season": null,
+                    "allTime": false,
+                    "context": "most popular"
+                }
+            ],
+            "siteUrl": "https:\\/\\/anilist.co\\/anime\\/33",
+            "modNotes": null
+        }
+    }
+}

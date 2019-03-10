@@ -8,13 +8,8 @@ cache:
     - vendor/ruby
 
 before_script:
-  - ruby -v        
-  - bundle exec rake install                           
-  - bundle install -j $(nproc) --path vendor  # Install dependencies into ./vendor/ruby
-
-rubocop:
-  script:
-  - rubocop
+  - ruby -v                                   
+  - bundle install --path vendor
 
 rspec:
   script:

@@ -1,5 +1,5 @@
 require_relative '../lib/Anilistrb/Client'
-require_relative '../lib/Anilistrb/Version'
+require_relative '../lib/Anilistrb/version'
 
 RSpec.describe Anilistrb do
   it 'has a version number' do

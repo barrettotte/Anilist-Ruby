@@ -65,7 +65,7 @@ RSpec.describe Anilistrb do
       'english' => 'KonoSuba – God’s blessing on this wonderful world!!', 
       'native'  => 'この素晴らしい世界に祝福を!'
     })
-    expect(manga.id).to eq(85702)
+    expect(manga).not_to be nil
   end
 
   it 'searches for pages of Anime' do
